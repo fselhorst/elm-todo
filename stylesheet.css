@@ -1,0 +1,40 @@
+button {
+    margin: 10px;
+    margin-left:0;
+    margin-bottom:0;
+    border: none;
+    border-radius: 100px;
+    padding: 7px 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button.complete {
+    background-color: teal;
+    color: white;
+}
+
+button.re-open {
+    background-color: #ccc;
+    color: #222;
+}
+
+ul {
+    padding:0;
+}
+
+ul li {
+    border: 1px solid #bababa;
+    margin-bottom: 25px;
+    max-width: 320px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.todo.closed {
+    border-color: #e3e3e3;
+}
+
+.todo.closed s {
+    opacity:0.5;
+}
